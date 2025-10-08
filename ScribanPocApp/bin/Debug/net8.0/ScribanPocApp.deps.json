@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ScribanPocApp/1.0.0": {
+        "dependencies": {
+          "Scriban": "6.4.0"
+        },
+        "runtime": {
+          "ScribanPocApp.dll": {}
+        }
+      },
+      "Scriban/6.4.0": {
+        "runtime": {
+          "lib/net7.0/Scriban.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ScribanPocApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Scriban/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z30JIkGd5BOx1s+5qj4OD7N3uQ734IT10M7t7noouZ1W7yxIVvO+ZRwXKp5VYo6ywfOywo8SQfLLp9LosupBYg==",
+      "path": "scriban/6.4.0",
+      "hashPath": "scriban.6.4.0.nupkg.sha512"
+    }
+  }
+}

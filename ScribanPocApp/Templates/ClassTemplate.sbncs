@@ -1,0 +1,7 @@
+// Sample Scriban template for a C# class
+// File: ClassTemplate.sbncs
+
+public class {{ class_name }}
+{
+    public {{ property_type }} {{ property_name }} { get; set; }
+}
