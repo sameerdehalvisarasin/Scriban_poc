@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScribanPocApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a1c638a36864da362b5f0ba4f53aad547cd7485")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c5411f62b6b79946d425c9172429563a37137f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScribanPocApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScribanPocApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

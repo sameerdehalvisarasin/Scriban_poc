@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj": {}
+    "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj": {}
   },
   "projects": {
-    "/workspaces/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj": {
+    "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+        "projectUniqueName": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
         "projectName": "ScribanPocApp",
-        "projectPath": "/workspaces/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Scriban_poc/ScribanPocApp/obj/",
+        "projectPath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+        "packagesPath": "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages",
+        "outputPath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,12 +37,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Anthropic.SDK": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
             "Scriban": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -59,12 +64,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

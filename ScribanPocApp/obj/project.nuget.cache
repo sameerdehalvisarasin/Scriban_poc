@@ -1,10 +1,56 @@
 {
   "version": 2,
-  "dgSpecHash": "4tPJ5q1l4lY=",
+  "dgSpecHash": "mVoUos3IOQ8=",
   "success": true,
-  "projectFilePath": "/workspaces/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+  "projectFilePath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
   "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/scriban/6.4.0/scriban.6.4.0.nupkg.sha512"
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/anthropic.sdk/5.10.0/anthropic.sdk.5.10.0.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/microsoft.bcl.asyncinterfaces/10.0.3/microsoft.bcl.asyncinterfaces.10.0.3.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/microsoft.extensions.ai.abstractions/10.3.0/microsoft.extensions.ai.abstractions.10.3.0.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/scriban/6.4.0/scriban.6.4.0.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/system.io.pipelines/10.0.3/system.io.pipelines.10.0.3.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/system.text.encodings.web/10.0.3/system.text.encodings.web.10.0.3.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/system.text.json/10.0.3/system.text.json.10.0.3.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-95e061a5c3f2bf35/dbs/csharp/working/packages/microsoft.netcore.app.host.linux-x64/8.0.23/microsoft.netcore.app.host.linux-x64.8.0.23.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Scriban' 6.4.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5rpf-x9jg-8j5p",
+      "projectPath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 6.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-grr9-747v-xvcp",
+      "projectPath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 6.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-wgh7-7m3c-fx25",
+      "projectPath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/Scriban_poc/Scriban_poc/ScribanPocApp/ScribanPocApp.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
